@@ -5,8 +5,9 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    justify-content: center;
-    width: 92vw;
+    justify-content: flex-start;
+    width: 100vw;
+   
 
 }
 .header__page{
@@ -17,7 +18,8 @@
     background: radial-gradient(circle, transparent, rgba(var(--third-background-rgb), var(--gradient-percent)), rgba(var(--primary-background-rgb), var(--gradient-percent))),
     radial-gradient(circle, rgba(var(--primary-background-rgb), var(--gradient-percent)), rgba(var(--third-background-rgb), var(--gradient-percent)));
     background-blend-mode: multiply;
-   
+    padding: 1.5vh 0vw 2.5vh 0vw;
+       
     
   }
 
@@ -65,10 +67,10 @@
   
   /*MAIN*/
   .main__page{
-    margin: 5vh 0vw 5vh 0vw;
+    margin: 0vh 0vw 5vh 0vw;
   }
   body {
-    background: radial-gradient(circle, var(--secondary-background), var(--third-background), var(--primary-background));
+    background: radial-gradient(circle,  var(--secondary-background), var(--third-background),var(--primary-background));
     color: var(--primary-color);
     font-family: "inter", sans-serif;
     height: 100em;
@@ -77,10 +79,10 @@
     .div__container {
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: space-evenly;
       align-items: center;
       height: 20em;
-      margin: 5em 0em 5em 0em;
+      padding: 5em 0em 5em 0em;
       background: radial-gradient(circle, transparent, rgba(var(--third-background-rgb), var(--gradient-percent)), rgba(var(--primary-background-rgb), var(--gradient-percent))),
                   radial-gradient(circle, rgba(var(--primary-background-rgb), var(--gradient-percent)), rgba(var(--third-background-rgb), var(--gradient-percent)));
       background-blend-mode: multiply;
@@ -91,6 +93,7 @@
     font-weight: var(--medium-font-weight);
     margin: 0.1em;
     width: 60vw;
+    color:var(--secondary-color)
   
   }
   .paragraph__text {
@@ -117,16 +120,20 @@
   
     .form__email {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
-      margin: 1em;
+      margin: 0em;
     }
     .input__email{
-      width: 55vw;
+      width: 35vw;
       text-align: flex-end;
       font-size: var(--small-font-size);
       border-radius: 0.5em;
       height: 3vh;
+      margin-left: 0.625em; 
+      background: var(--primary-color);
+      color: white;
+
     }
   
     /*Footer*/

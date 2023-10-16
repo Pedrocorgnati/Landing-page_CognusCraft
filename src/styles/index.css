@@ -41,10 +41,10 @@ button {
   padding: 0.625em 1.25em; 
   transition: transform 0.3s, box-shadow 0.3s;
   margin: 0.0625em; 
-  margin-right: 2em;
+  margin-right: 1em;
   margin-left: 1em;
-  width: 8em;
-  height: 1.5em;
+  width: 7em;
+  height: 2em;
   font-size: var(--tiny-font-size);
   display: flex;
   justify-content: center;
@@ -63,6 +63,8 @@ button:hover {
 }
 .main__page{
   margin: 0em 1em 0em 1em;
+
+  
 }
 
 body {
@@ -88,7 +90,7 @@ body {
   font-weight: var(--medium-font-weight);
   margin: 0.1em;
   text-align: center;
-
+  color:var(--secondary-color)
 }
 .paragraph__text {
   font-size: var(--tiny-font-size);
@@ -113,16 +115,19 @@ body {
 
   .form__email {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     
   }
   .input__email{
-    width: 28vw;
+    width: 15vw;
     text-align: flex-end;
     font-size: var(--tiny-font-size);
-    border-radius: 0.5em;
+    border-radius: 1em;
     height: 3.5vh;
+    background: var(--primary-color);
+    color: white;
+
   }
 
   
