@@ -8,20 +8,20 @@
 
     /*font color*/
     --primary-color: #ffffff;
-    --secondary-color: #ffffff;
+    --secondary-color: rgb(23, 122, 189);
 
     /*fontsize*/
     --largest-font-size: 9vw;
     --large-font-size: 7vw;
     --medium-font-size: 6vw;
-    --small-font-size: 3vw;
+    --small-font-size: 2.5vw;
     --smallest-font-size:2vw;
     --tiny-font-size:1.5vw;
-    --copy-font-size:1.0vw;
+    --copy-font-size:1.5vw;
     
 
     /*font weight*/
-    --heavy-font-weight:600;
+    --heavy-font-weight:800;
     --medium-font-weight:400;
     --light-font-weight:200;
 
@@ -29,8 +29,20 @@
     --gradient-percent:0.4;
 
     /*font family*/
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,700;6..12,800&display=swap');
 
+    
+        /*Site azul*//*
+        --primary-background: rgb(209, 209, 209);
+        --secondary-background: rgb(23, 122, 189);
+        --third-background: rgb(74, 118, 160);
+        --primary-background-rgb: 209, 209, 209;
+        --third-background-rgb: 255, 255, 255;
+    
+        
+        --primary-color: #ffffff;
+        --secondary-color: #ffffff;
+        */
 }
 
 

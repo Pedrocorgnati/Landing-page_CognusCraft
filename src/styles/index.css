@@ -1,110 +1,114 @@
 @media (min-width: 768.1px) {
 
-.section__container{
+  .section__container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 100vw;
+   
+
+}
+.aside__buttons {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-}
-
-.header__page{
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  width: 100vw;
-  margin: 1em 0em 1em 0em;
-   
-}
-
-.figure__logo{
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  margin-left: 1em;
-}
-.img__logo{
-  padding-top: 0.25em;
-  height: 3em;
-}
-.h2__name{
-  font-size: var(--smallest-font-size);
-  font-weight: var(--heavy-font-weigth);
-}
-.nav__buttons {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  height: 50vh;
 }
 button {
-  background: linear-gradient(to bottom, var(--third-background), var(--second-background));
-  color: var(--primary-color);
-  border: 0.0625em solid var(--primary-color);
-  border-radius: 0.625em; 
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border: 0.15em solid var(--secondary-color); 
+  border-radius: 2em; 
   padding: 0.625em 1.25em; 
   transition: transform 0.3s, box-shadow 0.3s;
   margin: 0.0625em; 
   margin-right: 1em;
   margin-left: 1em;
-  width: 7em;
+  width: 10em;
   height: 2em;
-  font-size: var(--tiny-font-size);
+  font-size: var(--small-font-size);
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: var(--medium-font-weight);
 }
 
+.img__logo{
+  height: 10em;
+}
+
+
 button:hover {
-  background: linear-gradient(to bottom, var(--primary-background), var(--third-background));
+  background: var(--secondary-background);
+  color: var(--primary-color);
+  border: 0.0625em solid var(--primary-color);
   transform: scale(1.1);
   box-shadow: 0 0.3125em 0.9375em rgba(0, 0, 0, 0.2); 
-  border: 0.125em solid var(--primary-color); 
   margin: 0em;
   margin-right: 1em;
   margin-left: 1em;
 
 }
-.main__page{
-  margin: 0em 1em 0em 1em;
-
-  
-}
-
 body {
   background: radial-gradient(circle, var(--secondary-background), var(--third-background), var(--primary-background));
   color: var(--primary-color);
-  font-family: "inter", sans-serif;
+  font-family: "nunito", sans-serif;
   height: 100vh;
   }
-  
   .div__container {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    height: 40vh;
+    height: 60vh;
     margin: 10em 5em 10em 5em;
     background: rgba(var(--primary-background-rgb), var(--gradient-percent));/*
                 radial-gradient(circle, rgba(var(--primary-background-rgb), var(--gradient-percent)), rgba(var(--third-background-rgb), var(--gradient-percent)));*/
 }
+
+.div_first{
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
 .h1__title {
   font-size: var(--medium-font-size);
-  font-weight: var(--medium-font-weight);
+  font-weight: var(--heavy-font-weight);
+  
   margin: 0.1em;
-  text-align: center;
-  color:var(--secondary-color);
-  margin-top: 0.5em;
-  margin-bottom: 1em;
+  text-align: start;
+  color:var(--primary-color);
+  margin-bottom: 0.5em;
+  
+
+  text-shadow: 
+    1px 1px 0 var(--primary-color),
+   -1px -1px 0 var(--primary-color),
+   -1px 1px 0 var(--primary-color),
+    1px -1px 0 var(--primary-color),
+    1px 0px 0 var(--primary-color),
+    0px 1px 0 var(--primary-color),
+   -1px 0px 0 var(--primary-color),
+    0px -1px 0 var(--primary-color);
 }
 .paragraph__text {
   font-size: var(--tiny-font-size);
-  padding: 0.5em;
-  margin-bottom: 1em;
+  
+}
+.paragraph__details{
+  font-weight: var(--heavy-font-weight);
+  padding-left: 2.5em;
+ 
 }
 .paragraph__mission {
  
   font-size: var(--tiny-font-size);
-  padding: 2em;
-
+  margin-left: 10em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  padding-bottom: 1em;
 }
 
 @keyframes typing {
@@ -119,22 +123,29 @@ body {
 
   .form__email {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     
   }
   .input__email{
-    width: 20vw;
+    width: 15em;
     text-align: flex-end;
     font-size: var(--tiny-font-size);
     border-radius: 0.5em;
     height: 3vh;
     background: var(--primary-color);
-    color: white;
+    color: var(--primary-color);
+    border: 0.2em solid var(--secondary-color); 
+    margin-bottom: 1em;
 
   }
 
-  
+  .div__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 15vh;
+  }
   .footer__page{
     display: flex;
     justify-content: center;

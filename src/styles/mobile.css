@@ -1,27 +1,7 @@
 @media (max-width: 768px) {
     
 /*Header and navigation*/
-.section__container{
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: flex-start;
-    width: 100vw;
-   
 
-}
-.header__page{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background: radial-gradient(circle, transparent, rgba(var(--third-background-rgb), var(--gradient-percent)), rgba(var(--primary-background-rgb), var(--gradient-percent))),
-    radial-gradient(circle, rgba(var(--primary-background-rgb), var(--gradient-percent)), rgba(var(--third-background-rgb), var(--gradient-percent)));
-    background-blend-mode: multiply;
-    padding: 1.5vh 0vw 2.5vh 0vw;
-       
-    
-  }
 
   .figure__logo{
     display: flex;
@@ -30,72 +10,79 @@
     justify-content: center;
   }
   .img__logo{
-    padding-top: 0.25em;
-    height: 3em;
+    margin-top: 2em;
+    height: 10em;
   }
-  .h2__name{
-    font-size: var(--medium-font-size);
-  }
-  .nav__buttons {
+ 
+  .aside__buttons {
       display: flex;
-      justify-content: flex-end;
+      flex-direction: column;
+      justify-content: space-between;
       align-items: center;
+      height: 50vh;
   }
   button {
-    background: linear-gradient(to bottom, var(--third-background), var(--second-background));
-    color: var(--primary-color);
-    border: 0.0625em solid var(--primary-color);
-    border-radius: 0.625em; 
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border: 0.15em solid var(--secondary-color); 
+    border-radius: 2em; 
     padding: 0.625em 1.25em; 
     transition: transform 0.3s, box-shadow 0.3s;
     margin: 0.0625em; 
     margin-right: 1em;
     margin-left: 1em;
-    width: 7em;
-    height: 2.5em;
+    width: 10em;
+    height: 2em;
+    font-size: var(--small-font-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--medium-font-weight);
   }
   
   button:hover {
-    background: linear-gradient(to bottom, var(--primary-background), var(--third-background));
+    background: var(--secondary-background);
+    color: var(--primary-color);
+    border: 0.0625em solid var(--primary-color);
     transform: scale(1.1);
     box-shadow: 0 0.3125em 0.9375em rgba(0, 0, 0, 0.2); 
-    border: 0.125em solid var(--primary-color); 
     margin: 0em;
-    margin-right: 2em;
+    margin-right: 1em;
     margin-left: 1em;
+  
   }
   
   /*MAIN*/
   .main__page{
-    margin: 0vh 0vw 5vh 0vw;
+    margin: 0em 1em 0em 1em;  }
+
+body {
+  background: radial-gradient(circle, var(--secondary-background), var(--third-background), var(--primary-background));
+  color: var(--primary-color);
+  font-family: "nunito", sans-serif;
+  height: 100vh;
   }
-  body {
-    background: radial-gradient(circle,  var(--secondary-background), var(--third-background),var(--primary-background));
-    color: var(--primary-color);
-    font-family: "inter", sans-serif;
-    height: 100em;
-    }
     
     .div__container {
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: flex-start;
       align-items: center;
-      height: 20em;
-      padding: 5em 0em 5em 0em;
+      height: 50em;
+      padding: 0em 0em 5em 0em;
       background: radial-gradient(circle, transparent, rgba(var(--third-background-rgb), var(--gradient-percent)), rgba(var(--primary-background-rgb), var(--gradient-percent))),
                   radial-gradient(circle, rgba(var(--primary-background-rgb), var(--gradient-percent)), rgba(var(--third-background-rgb), var(--gradient-percent)));
       background-blend-mode: multiply;
   }
   .h1__title {
-    text-align: center;
-    font-size: var(--largest-font-size);
-    font-weight: var(--medium-font-weight);
+    font-size: var(--large-font-size);
+    font-weight: var(--heavy-font-weight);
     margin: 0.1em;
-    width: 60vw;
-    color:var(--secondary-color)
-  
+    text-align: start;
+    color:var(--primary-color);
+    margin-bottom: 0.5em;
   }
+
   .paragraph__text {
     display: flex;
     justify-content: center;
@@ -120,25 +107,26 @@
   
     .form__email {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
       margin: 0em;
     }
     .input__email{
-      width: 35vw;
+      width: 25em;
       text-align: flex-end;
-      font-size: var(--small-font-size);
+      font-size: var(--tiny-font-size);
       border-radius: 0.5em;
       height: 3vh;
-      margin-left: 0.625em; 
       background: var(--primary-color);
-      color: white;
-
+      color: var(--primary-color);
+      border: 0.2em solid var(--secondary-color); 
+      margin-bottom: 0.5em;
+  
     }
   
     /*Footer*/
     .footer__page{
-      padding-top: 6em;
+      padding-top: 1em;
       
       
   
