@@ -11,6 +11,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100vw;
+  margin: 1em 0em 1em 0em;
    
 }
 
@@ -25,7 +26,7 @@
   height: 3em;
 }
 .h2__name{
-  font-size: var(--small-font-size);
+  font-size: var(--smallest-font-size);
 }
 .nav__buttons {
     display: flex;
@@ -43,7 +44,7 @@ button {
   margin-right: 2em;
   margin-left: 1em;
   width: 8em;
-  height: 2em;
+  height: 1.5em;
   font-size: var(--tiny-font-size);
   display: flex;
   justify-content: center;
@@ -60,7 +61,9 @@ button:hover {
   margin-left: 1em;
 
 }
-
+.main__page{
+  margin: 0em 1em 0em 1em;
+}
 
 body {
   background: radial-gradient(circle, var(--secondary-background), var(--third-background), var(--primary-background));
@@ -81,23 +84,21 @@ body {
     background-blend-mode: multiply;
 }
 .h1__title {
-  font-size: var(--large-font-size);
+  font-size: var(--medium-font-size);
   font-weight: var(--medium-font-weight);
   margin: 0.1em;
+  text-align: center;
 
 }
 .paragraph__text {
-  font-size: var(--smallest-font-size);
+  font-size: var(--tiny-font-size);
   padding: 0.5em;
 }
 .paragraph__mission {
-  border-right: .15em solid black; 
-  font-size: var(--smallest-font-size);
+ 
+  font-size: var(--tiny-font-size);
   padding: 2em;
-  white-space: nowrap;
-  overflow: hidden;   
-  clip-path: inset(0 100% 0 0); 
-  animation: typing 2s steps(40, end) forwards, blink .75s step-end infinite;
+
 }
 
 @keyframes typing {
@@ -117,9 +118,9 @@ body {
     
   }
   .input__email{
-    width: 38vw;
+    width: 28vw;
     text-align: flex-end;
-    font-size: var(--smallest-font-size);
+    font-size: var(--tiny-font-size);
     border-radius: 0.5em;
     height: 3.5vh;
   }
@@ -131,6 +132,6 @@ body {
   }   
 
   .paragraph__copy{
-    font-size: var(--tiny-font-size);
+    font-size: var(--copy-font-size);
   }
 }
