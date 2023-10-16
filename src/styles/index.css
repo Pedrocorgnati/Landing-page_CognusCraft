@@ -1,0 +1,136 @@
+@media (min-width: 768.1px) {
+
+.section__container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.header__page{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+   
+}
+
+.figure__logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 1em;
+}
+.img__logo{
+  padding-top: 0.25em;
+  height: 3em;
+}
+.h2__name{
+  font-size: var(--small-font-size);
+}
+.nav__buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+button {
+  background: linear-gradient(to bottom, var(--third-background), var(--primary-background));
+  color: var(--primary-color);
+  border: 0.0625em solid var(--primary-color);
+  border-radius: 0.625em; 
+  padding: 0.625em 1.25em; 
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin: 0.0625em; 
+  margin-right: 2em;
+  margin-left: 1em;
+  width: 8em;
+  height: 2em;
+  font-size: var(--tiny-font-size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, var(--primary-background), var(--third-background));
+  transform: scale(1.1);
+  box-shadow: 0 0.3125em 0.9375em rgba(0, 0, 0, 0.2); 
+  border: 0.125em solid var(--primary-color); 
+  margin: 0em;
+  margin-right: 2em;
+  margin-left: 1em;
+
+}
+
+
+body {
+  background: radial-gradient(circle, var(--secondary-background), var(--third-background), var(--primary-background));
+  color: var(--primary-color);
+  font-family: "inter", sans-serif;
+  height: 100vh;
+  }
+  
+  .div__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    margin: 10em 5em 10em 5em;
+    background: radial-gradient(circle, transparent, rgba(var(--third-background-rgb), var(--gradient-percent)), rgba(var(--primary-background-rgb), var(--gradient-percent))),
+                radial-gradient(circle, rgba(var(--primary-background-rgb), var(--gradient-percent)), rgba(var(--third-background-rgb), var(--gradient-percent)));
+    background-blend-mode: multiply;
+}
+.h1__title {
+  font-size: var(--large-font-size);
+  font-weight: var(--medium-font-weight);
+  margin: 0.1em;
+
+}
+.paragraph__text {
+  font-size: var(--smallest-font-size);
+  padding: 0.5em;
+}
+.paragraph__mission {
+  border-right: .15em solid black; 
+  font-size: var(--smallest-font-size);
+  padding: 2em;
+  white-space: nowrap;
+  overflow: hidden;   
+  clip-path: inset(0 100% 0 0); 
+  animation: typing 2s steps(40, end) forwards, blink .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0 0% 0 0); }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
+} 
+
+  .form__email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .input__email{
+    width: 38vw;
+    text-align: flex-end;
+    font-size: var(--smallest-font-size);
+    border-radius: 0.5em;
+    height: 3.5vh;
+  }
+
+  
+  .footer__page{
+    display: flex;
+    justify-content: center;
+  }   
+
+  .paragraph__copy{
+    font-size: var(--tiny-font-size);
+  }
+}

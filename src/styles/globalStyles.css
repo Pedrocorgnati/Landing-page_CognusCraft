@@ -1,0 +1,36 @@
+:root {
+    /*Background*/
+    --primary-background: rgb(0, 0, 0);
+    --secondary-background: rgb(58, 0, 67);
+    --third-background: rgb(2, 2, 37);
+    --primary-background-rgb: 0, 0, 0;
+    --third-background-rgb: 2, 2, 37;
+
+    /*font color*/
+    --primary-color: #fff;
+    --secondary-color: #888;
+
+    /*fontsize*/
+    --largest-font-size: 9vw;
+    --large-font-size: 7vw;
+    --medium-font-size: 6vw;
+    --small-font-size: 3vw;
+    --smallest-font-size:2vw;
+    --tiny-font-size:1.5vw;
+    
+
+    /*font weight*/
+    --heavy-font-weight:600;
+    --medium-font-weight:400;
+    --light-font-weight:200;
+
+    /*gradient and blur*/
+    --gradient-percent:0.4;
+
+    /*font family*/
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+}
+
+
+
