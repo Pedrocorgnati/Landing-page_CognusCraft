@@ -1,14 +1,14 @@
 :root {
     /*Background*/
-    --primary-background: rgb(209, 209, 209);
-    --secondary-background: rgb(23, 122, 189);
-    --third-background: rgb(74, 118, 160);
+    --primary-background: rgb(161, 156, 85);
+    --secondary-background: rgb(27, 27, 27);
+    --third-background: rgb(131, 131, 131);
     --primary-background-rgb: 209, 209, 209;
     --third-background-rgb: 255, 255, 255;
 
     /*font color*/
     --primary-color: #ffffff;
-    --secondary-color: rgb(23, 122, 189);
+    --secondary-color: rgb(131, 131, 131);
 
     /*fontsize*/
     --largest-font-size: 9vw;
