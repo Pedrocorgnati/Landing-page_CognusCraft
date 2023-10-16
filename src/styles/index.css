@@ -14,12 +14,12 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 50vh;
+  height: 60vh;
 }
 button {
   background: var(--primary-color);
   color: var(--secondary-color);
-  border: 0.15em solid var(--secondary-color); 
+  border: 0.10em solid var(--secondary-color); 
   border-radius: 2em; 
   padding: 0.625em 1.25em; 
   transition: transform 0.3s, box-shadow 0.3s;
@@ -27,8 +27,8 @@ button {
   margin-right: 1em;
   margin-left: 1em;
   width: 10em;
-  height: 2em;
-  font-size: var(--small-font-size);
+  height: 1em;
+  font-size: var(--smallest-font-size);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,8 +62,8 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 60vh;
-    margin: 10em 5em 10em 5em;
+    height: 90vh;
+    margin: 2em 10em 2em 10em;
     background: rgba(var(--primary-background-rgb), var(--gradient-percent));/*
                 radial-gradient(circle, rgba(var(--primary-background-rgb), var(--gradient-percent)), rgba(var(--third-background-rgb), var(--gradient-percent)));*/
 }
@@ -98,8 +98,9 @@ body {
   
 }
 .paragraph__details{
-  font-weight: var(--heavy-font-weight);
-  padding-left: 2.5em;
+  font-weight: var(--medium-font-weight);
+  padding-left: 1em;
+  padding-bottom: 0.5em;
  
 }
 .paragraph__mission {
@@ -135,8 +136,8 @@ body {
     height: 3vh;
     background: var(--primary-color);
     color: var(--primary-color);
-    border: 0.2em solid var(--secondary-color); 
-    margin-bottom: 1em;
+    border: 0.12em solid var(--secondary-color); 
+    margin-bottom: 0.5em;
 
   }
 
