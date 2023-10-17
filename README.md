@@ -1,6 +1,6 @@
-# Landing Page Repository for Cognuscraft.com
+# Landing Page Repository
 
-## About This Repository
+## About
 
 This repository contains the source code and assets for our main landing page, which serves as the primary touchpoint for potential clients, partners, and anyone interested in what we do. It reflects our commitment to our mission and showcases our latest technology and AI solutions.
 
