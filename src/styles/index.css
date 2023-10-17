@@ -50,7 +50,6 @@ button:hover {
   border: 0.0625em solid var(--primary-color);
   transform: scale(1.1);
   box-shadow: 0 0.3125em 0.9375em rgba(0, 0, 0, 0.2); 
-  margin: 0em;
   margin-right: 1em;
   margin-left: 1em;
 
