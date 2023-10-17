@@ -9,6 +9,10 @@
    
 
 }
+.figure__logo{
+  display: flex;
+  justify-content: center;
+}
 .aside__buttons {
   display: flex;
   flex-direction: column;
@@ -36,7 +40,7 @@ button {
 }
 
 .img__logo{
-  height: 20em;
+  height: 30vh;
 }
 
 
@@ -104,7 +108,7 @@ body {
  
 }
 .paragraph__mission {
- 
+  text-align: center;
   font-size: var(--tiny-font-size);
   margin-left: 10em;
   margin-bottom: 1em;
@@ -144,8 +148,9 @@ body {
   .div__form{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     height: 15vh;
+    text-decoration: none;
   }
   .footer__page{
     display: flex;
@@ -155,4 +160,8 @@ body {
   .paragraph__copy{
     font-size: var(--copy-font-size);
   }
+}
+
+.button__submit{
+  margin-left: 5em;
 }

@@ -1,10 +1,10 @@
 :root {
     /*Background*/
-    --primary-background: rgb(161, 156, 85);
-    --secondary-background: rgb(27, 27, 27);
-    --third-background: rgb(131, 131, 131);
-    --primary-background-rgb: 209, 209, 209;
-    --third-background-rgb: 255, 255, 255;
+    --primary-background: rgb(66, 64, 30);
+    --secondary-background: rgb(0, 0, 0);
+    --third-background: rgb(36, 36, 36);
+    --primary-background-rgb: 0, 0, 0;
+    --third-background-rgb: 0,0,0;
 
     /*font color*/
     --primary-color: #ffffff;
@@ -31,18 +31,7 @@
     /*font family*/
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,700;6..12,800&display=swap');
 
-    
-        /*Site azul*//*
-        --primary-background: rgb(209, 209, 209);
-        --secondary-background: rgb(23, 122, 189);
-        --third-background: rgb(74, 118, 160);
-        --primary-background-rgb: 209, 209, 209;
-        --third-background-rgb: 255, 255, 255;
-    
-        
-        --primary-color: #ffffff;
-        --secondary-color: #ffffff;
-        */
+  
 }
 
 
