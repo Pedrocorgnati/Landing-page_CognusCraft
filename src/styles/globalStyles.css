@@ -2,17 +2,16 @@
 
 :root {
     /*Background*/
-    --primary-background: rgb(255, 255, 255);
+    --primary-background: rgb(200, 200, 200);
     --secondary-background: rgb(15, 16, 41);
-    /*--third-background: rgb(0, 0, 0);*/
-
+       
     /*Opacity*/
     --primary-background-opacity: 0, 0, 0;
     --second-background-opacity: 0,0,0;
     --opacity-percent:0.4;
     
     /*font color*/
-    --primary-color: rgb(255, 255, 255);
+    --primary-color: rgb(200, 200, 200);
     --secondary-color: rgb(15, 16, 41);
 
     /*fontsize*/
@@ -33,14 +32,18 @@
     /*gradient and blur*/
     --gradient-percent:0.4;
 
-    /*Margin Desktok*/
-    --margin-desktop: 2vh 0vw;
+    --mobile-transform-scale:scale(1.5);
+    --margin-container: 5vh 0vw;
+    --margin-container-mobile: 2vh 0vw;
 
-    /*Mobile Adapt*/
-    --mobile-transform-scale: scale(1.5);
-    --margin-530px: 5vh 0vw;
-    --margin-430px: 3vh 0vw;
+    /*Box Config*/
+    --margin-desktop: 3vh 0vw;
+    --margin-768px: 4vh 0vw;
+    --margin-630px: 4vh 0vw;
+    --margin-530px: 4vh 0vw;
+    --margin-430px: 4vh 0vw;
     --margin-330px: 2vh 0vw;
+    --padding-mobile: 5vh 2vw;
   
 }
 
