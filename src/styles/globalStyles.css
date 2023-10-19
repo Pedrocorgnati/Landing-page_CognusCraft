@@ -12,14 +12,16 @@
     --primary-color: rgb(226, 226, 226);
     --secondary-color: rgb(15, 16, 41);
 
-    /*fontsize*/
-    --largest-font-size: 9vw;
-    --large-font-size: 7vw;
-    --medium-font-size: 6vw;
-    --small-font-size: 2.5vw;
-    --smallest-font-size:2vw;
-    --tiny-font-size:1.5vw;
-    --copy-font-size:1.5vw;
+    /*fontsize Desktop*/
+    --large-font-size-desktop: 6vw;
+    --medium-font-size-desktop: 2vw;
+    --small-font-size-desktop: 1.8vw;
+
+   /*fontsize mobile*/
+    --large-font-size-mobile: 9vw;
+    --medium-font-size-mobile: 3vw;
+    --small-font-size-mobile: 4.5vw;
+
     
 
     /*font weight*/
@@ -35,7 +37,7 @@
     --margin-container-mobile: 03vw 0vh;
 
     /*Logo Sizing*/
-    --logo-sizing-desktop:25vw;
+    --logo-sizing-desktop:15vw;
     --logo-sizing-mobile:30vw;
 
     /*Box Config*/
