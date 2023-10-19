@@ -1,13 +1,14 @@
-let emails = [];
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.querySelector('.button__contact-us');
+    const logoMail = document.querySelector('.logo__mail');
+    const originalIcon = logoMail.getAttribute('src');
+    const hoverIcon = logoMail.getAttribute('data-hover-icon');
 
-function saveEmail() {
-    const emailInput = document.querySelector('.input__email');
-    if (emailInput && emailInput.value) {
-        emails.push(emailInput.value);
-        console.log('E-mail adicionado:', emailInput.value);
-    } else {
-        console.log('Please, insert your E-mail.');
-    }
-}
+    button.addEventListener('mouseenter', function() {
+        logoMail.setAttribute('src', hoverIcon);
+    });
 
-document.querySelector('.input__email').addEventListener('change', addEmailToArray);
+    button.addEventListener('mouseleave', function() {
+        logoMail.setAttribute('src', originalIcon);
+    });
+});

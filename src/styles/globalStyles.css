@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,700;6..12,800&display=swap');
+
 :root {
     /*Background*/
-    --primary-background: rgb(66, 64, 30);
-    --secondary-background: rgb(0, 0, 0);
-    --third-background: rgb(36, 36, 36);
-    --primary-background-rgb: 0, 0, 0;
-    --third-background-rgb: 0,0,0;
-
+    --primary-background: rgb(200, 200, 200);
+    --secondary-background: rgb(15, 16, 41);
+       
+    /*Opacity*/
+    --primary-background-opacity: 0, 0, 0;
+    --second-background-opacity: 0,0,0;
+    --opacity-percent:0.4;
+    
     /*font color*/
-    --primary-color: #ffffff;
-    --secondary-color: rgb(131, 131, 131);
+    --primary-color: rgb(200, 200, 200);
+    --secondary-color: rgb(15, 16, 41);
 
     /*fontsize*/
     --largest-font-size: 9vw;
@@ -28,9 +32,18 @@
     /*gradient and blur*/
     --gradient-percent:0.4;
 
-    /*font family*/
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,700;6..12,800&display=swap');
+    --mobile-transform-scale:scale(1.5);
+    --margin-container: 5vh 0vw;
+    --margin-container-mobile: 2vh 0vw;
 
+    /*Box Config*/
+    --margin-desktop: 3vh 0vw;
+    --margin-768px: 4vh 0vw;
+    --margin-630px: 4vh 0vw;
+    --margin-530px: 4vh 0vw;
+    --margin-430px: 4vh 0vw;
+    --margin-330px: 2vh 0vw;
+    --padding-mobile: 5vh 2vw;
   
 }
 
