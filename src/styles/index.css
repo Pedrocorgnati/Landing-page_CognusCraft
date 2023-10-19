@@ -65,6 +65,7 @@ button {
 .logo__mail {
   height: 4vh;
   width: 4vw;
+  margin-right: 1vw;
 }
 
 button:hover {
@@ -158,8 +159,11 @@ body {
   .img__logo {
     margin: var(--margin-768px);
     height: 25vw;
+    
   }
-
+  .logo__mail{
+    margin-right: 0vw;
+  }
   .section__container {
     height: 90vh;
   }
