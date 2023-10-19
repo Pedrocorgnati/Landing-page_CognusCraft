@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,700;6..12,800&display=swap');
-
 :root {
     /*Background*/
-    --primary-background: rgb(200, 200, 200);
+    --primary-background: rgb(228, 226, 226);
     --secondary-background: rgb(15, 16, 41);
        
     /*Opacity*/
@@ -11,7 +9,7 @@
     --opacity-percent:0.4;
     
     /*font color*/
-    --primary-color: rgb(200, 200, 200);
+    --primary-color: rgb(226, 226, 226);
     --secondary-color: rgb(15, 16, 41);
 
     /*fontsize*/
@@ -33,17 +31,23 @@
     --gradient-percent:0.4;
 
     --mobile-transform-scale:scale(1.5);
-    --margin-container: 5vh 0vw;
-    --margin-container-mobile: 2vh 0vw;
+    --margin-container: 5vw 0vh;
+    --margin-container-mobile: 03vw 0vh;
+
+    /*Logo Sizing*/
+    --logo-sizing-desktop:25vw;
+    --logo-sizing-mobile:30vw;
 
     /*Box Config*/
-    --margin-desktop: 3vh 0vw;
-    --margin-768px: 4vh 0vw;
-    --margin-630px: 4vh 0vw;
-    --margin-530px: 4vh 0vw;
-    --margin-430px: 4vh 0vw;
-    --margin-330px: 2vh 0vw;
-    --padding-mobile: 5vh 2vw;
+    --margin-desktop: 1vw 0vh;
+    --margin-768px: 4vw 0vh;
+    --margin-630px: 4vw 0vh;
+    --margin-530px: 5vw 0vh;
+    --margin-430px: 4.5vw 0vh;
+    --padding-mobile: 5vw 2vh;
+
+    /**/
+    --mobile-height: 90vh;
   
 }
 
