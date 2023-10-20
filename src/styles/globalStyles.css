@@ -13,9 +13,9 @@
     --secondary-color: rgb(15, 16, 41);
 
     /*fontsize Desktop*/
-    --large-font-size-desktop: 6vw;
-    --medium-font-size-desktop: 2vw;
-    --small-font-size-desktop: 1.8vw;
+    --large-font-size-desktop: 7vh;
+    --medium-font-size-desktop: 5vh;;
+    --small-font-size-desktop: 3vh;
 
    /*fontsize mobile*/
     --large-font-size-mobile: 9vw;
@@ -32,20 +32,20 @@
     /*gradient and blur*/
     --gradient-percent:0.4;
 
-    --mobile-transform-scale:scale(1.5);
-    --margin-container: 5vw 0vh;
+    --mobile-transform-scale:scale(1.0);
+    /* --margin-container: 5vw 0vh; */
     --margin-container-mobile: 03vw 0vh;
 
     /*Logo Sizing*/
-    --logo-sizing-desktop:15vw;
+    --logo-sizing-desktop:25vh;
     --logo-sizing-mobile:30vw;
 
-    /*Box Config*/
-    --margin-desktop: 1vw 0vh;
-    --margin-768px: 4vw 0vh;
+    /*Margin Config*/
+    --margin-desktop: 2vh 0;
+    --margin-768px: 3vw 0vh;
     --margin-630px: 4vw 0vh;
-    --margin-530px: 5vw 0vh;
-    --margin-430px: 4.5vw 0vh;
+    --margin-530px: 3vw 0vh;
+    --margin-430px: 3vw 0vh;
     --padding-mobile: 5vw 2vh;
 
     /**/

@@ -5,33 +5,49 @@
     <title>CognusCraft</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="At Cognuscraft, our mission is to empower the human race to transcend its limitations and biggest struggles using Technology and AI. Discover how our innovative solutions can elevate your potential.">
+    <meta name="description"
+        content="At Cognuscraft, our mission is to empower the human race to transcend its limitations and biggest struggles using Technology and AI. Discover how our innovative solutions can elevate your potential.">
     <link rel="shortcut icon" href="./src/assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,700;6..12,800&display=swap">
     <script src="./src/script/script.js" defer></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,700;6..12,800&display=swap">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K4HEQJ7ZPL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-K4HEQJ7ZPL');
+    </script>
 </head>
 
-<body>
-    <section class="section__container fccc">
-        <main class="main__page fccc">
-            <div class="div__container fccc">
-                <figure class="container__logo fccc">
-                    <img class="img__logo" src="./src/assets/Logo-white.webp" alt="Cognuscrat's logo"/>
+<body class="dfcc">
+
+
+    <section class="section__container dfcc">
+        <!-- <main class="main__page dfcc"> -->
+            <div class="div__container dfcc">
+                <figure class="container__logo dfcc">
+                    <img class="img__logo" src="./src/assets/Logo-white.webp" alt="Cognuscrat's logo" />
                 </figure>
                 <h1 class="container__title">Cognuscraft</h1>
                 <p class="container__mission paragraph__text">
                     Our mission is to empower human race <br> to transcend its limitations and biggest <br> struggles
                     through Technology and AI</p>
 
-                    <a class="container__button fccc" href="mailto:contact@cognuscraft.com">
-                        <button class="button__contact-us justify-and-align-center">
-                            <img class="logo__mail" src="./src/assets/mail.svg" alt="mail icon" data-hover-icon="./src/assets/mail-hover.svg">
-                            Contact Us
-                        </button>
-                    </a>
-            </div>
+                <a class="container__button dfcc" href="mailto:contact@cognuscraft.com">
+                    <button class="button__contact-us justify-and-align-center">
+                        <img id="mail" class="logo__mail" src="./src/assets/mail.svg" alt="mail icon"
+                            data-hover-icon="./src/assets/mail-hover.svg">
+                        <img id="mail-hover" style="display: none;" class="logo__mail" src="./src/assets/mail-hover.svg"
+                            alt="mail icon">
+                        Contact Us
+                    </button>
+                </a>
+            <!-- </div> -->
         </main>
     </section>
+</body>
 
 </html>
